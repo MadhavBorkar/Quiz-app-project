@@ -68,5 +68,5 @@ function showResult() {
   document.querySelector(".card").style.display = "none";
   nextBtn.style.display = "none";
   resultBox.classList.remove("hidden");
-  scoreText.innerText = `Your Score: ${score} / ${questions.length}`;
+  scoreText.innerText = `Your Final Score is: ${score} / ${questions.length}`;
 }
